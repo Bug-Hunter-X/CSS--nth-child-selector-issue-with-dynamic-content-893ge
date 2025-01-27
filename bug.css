@@ -1,0 +1,1 @@
+The CSS rule `:nth-child(n)` can lead to unexpected behavior when combined with dynamically added or removed elements.  If elements are added or removed after the page loads, the `:nth-child` selector might not correctly target the intended elements due to the recalculation of index.
